@@ -1,11 +1,10 @@
-{
-    margin: 0;
-              padding: 0;
-             text-decoration: none
-                     }
+#{margin: 0;
+ padding: 0;
+  text-decoration: none;
+      }
        
- body {
-             padding: 20px;
+ #body {
+        padding: 20px;
         }
         
  #container {
@@ -16,19 +15,19 @@
               overflow: hidden;
          }
  #list {
-              position: absolute;
-              z-index: 1;
-              width: 4200px;
-              height: 400px;
+             position: absolute;
+             z-index: 1;
+             width: 4200px;
+             height: 400px;
           }
          
  #list img {
-              float: left;
-             width: 600px;
-              height: 400px;
+            float: left;
+            width: 600px;
+           height: 400px;
           }
           
-          #buttons {
+ #buttons {
               position: absolute;
              left: 250px;
              bottom: 20px;
@@ -37,7 +36,7 @@
              width: 100px;
           }
          
-        #buttons span {
+ #buttons span {
               float: left;
             margin-right: 5px;
               width: 10px;
@@ -48,11 +47,11 @@
             cursor: pointer;
           }
           
-         #buttons .on {
+  #buttons .on {
               background: orangered;
           }
          
-         .arrow {
+  #arrow {
              position: absolute;
              top: 180px;
              z-index: 2;
@@ -68,19 +67,19 @@
               cursor: pointer;
          }
           
-          .arrow:hover {
+  #arrow:hover {
               background-color: RGBA(0, 0, 0, .7);
           }
           
-          #container:hover .arrow {
+ #container:hover .arrow {
               display: block;
           }
           
-          #prev {
+  #prev {
              left: 20px;
           }
           
-          #next {
+ #next {
               right: 20px;
           }
-      </style>
+

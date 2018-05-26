@@ -1,32 +1,31 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
- <head>
-  <title> new document </title>  
-  <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>   
-  <script type="text/javascript">  
-    function openwindow()
-    {
-        var mymessage=confirm("是否打开");
-        if(mymessage==true)
-        {
-            var tip;
-            tip=prompt("请输入你的网址:","http://www.imooc.com");
-            window.open("http://www.imooc.com",'_black','width=400,height=500,menubar=no,toolbar=no');
-        }
-        else{
-            window.close();
-        }
-    }
-    //新窗口打开时弹出确认框，是否打开
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<script src="js/1.js"></script>
+<link rel="stylesheet" href="css/1.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+		<div id="list"style="left:-600px;">
+			<img src="images/1.jpg" alt="1">
+			<img src="images/2.jpg" alt="1">
+			<img src="images/3.jpg" alt="2">
+			<img src="images/4.jpg" alt="3">
+			<img src="images/5.jpg" alt="4">
+			<img src="images/6.jpg" alt="5">	
+		</div>
+		<div id="buttons">
+		<span index="1"	class="on"></spam>
+		<span index="2"></span>
+		<span index="3"></span>
+		<span index="4"></span>
+		<span index="5"></span>
+	    </div>
+	    <a href="javascript:;" id="prev" class="arrow">&lt;</a>
 
-    // 通过输入对话框，确定打开的网址，默认为 http：//www.imooc.com/
-
-    //打开的窗口要求，宽400像素，高500像素，无菜单栏、无工具栏。
-    
-    
-  </script> 
- </head> 
- <body> 
-	  <input type="button" value="新窗口打开网站" onclick="openWindow()" /> 
- </body>
+        <a href="javascript:;" id="next" class="arrow">&gt;</a>
+    </div>
+</body>
 </html>
