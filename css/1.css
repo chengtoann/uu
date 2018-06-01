@@ -1,0 +1,43 @@
+#lunbo{  
+        position: relative;  
+        width: 500px;  
+        height: 300px;  
+}  
+#lunbo img{  
+        position: absolute;  
+ }
+#img{
+      height: 600px;
+      width: 1920px;
+}  
+#xiaoyuan{  
+      width: 300px;  
+     height: 50px;  
+      position: relative;  
+ }  
+#xiaoyuan li{  
+      width: 10px;  
+      height: 10px;  
+     list-style:none;  
+      border-radius: 50%;  
+      background: black;  
+      float: left;  
+      margin: 0px 10px;  
+ }  
+ #xiaoyuan ul{  
+      position: absolute;  
+      top: 50%;  
+      left: 50%;  
+      margin-top:-5px;  
+     margin-left: -75px;  
+      padding: 0px;  
+      width: 150px;  
+      height: 10px;  
+}
+#haha{  
+      position: absolute;  
+      bottom: 30px;  
+     left: 50%;  
+      margin-left: -150px;
+}  
+  
