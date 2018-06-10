@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+ }
+ .header{
+ 	height:250px;
+ 	font-size:22px;
+ 	font-family:"黑体";
+ 	font-weight:bold;
+ 	color:white;
+ 	padding-left:570px;
+ 	padding-top:57px;
+ 	background: url(images/demo.blue.png) no-repeat top;
+ }
+ .logo{
+ 	margin:0 auto;
+ 	width:1300px;
+ 	height:220px;
+ 	background-size:1300px auto;
+ 	background: url(images/demo.logo.gif) ;
+ }
+ .title{
+ 	 font-size: 46px;
+ 	 font-family: "黑体";
+     font-weight: bold;
+     color: white;
+     position: relative;
+     left:46px;
+     bottom:2px;
+ }
+.nav{
+	margin: 0 auto;
+ 	width: 1278px;
+ 	font-size:27px;
+ 	background-color:#006986;
+ }
+.nav ul{
+ 	margin: 0;
+ 	list-style: none;
+ }
+.nav ul li{
+	display:inline;
+	 width: 13%;
+	 height:62px;
+	 color:white;
+	 font-size:20px;
+	 display:inline-flex;
+	 justify-content: center;
+	 padding-top:11px;
+	 padding-bottom: 10px;
+ }
+ .nav li:hover{
+ 	background-color:white;
+ 	color:#006986; 
+ }
+.table{
+     width: 1300px;
+     margin:0 auto;
+ }
+.message{
+ 	padding-left:15px;
+ 	padding-right:15px;
+ 	width: 33%;
+ 	float:left;
+ }
+.big{
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	color: black;
+ }
+.notice{
+	float:left;
+	font-size: 25px;
+	font-family: "黑体"；
+	color: #0384a8;
+}
+.normal{
+	float:right;
+	font-size: 25px;
+	font-family: "黑体"；
+	color: #0384a8;
+}
+.list1{
+	list-style-image:  url(images/demo.point.gif);
+}
+.a1,.a2,.a4,.a5,.a6 h4{
+	border-bottom:solid #0384a8;
+}
+.one{
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+	color: #505252;
+}
+.two{
+	font-size: 15px;
+	color:#505252;
+}
+.date{
+	float:right;
+	color:#0384a8;
+	font-weight: bold;
+}
+.news {
+	width:62%; 
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+}
+.news img{
+    float:left;
+    margin-top:30px;
+    margin-left:40px;
+}
+.a2 h4{
+	margin-bottom:20px;
+}
+.list2{
+	margin-top:20px;
+	float:left;
+}
+.a3{
+	width:50%;
+	float:left;
+}
+.a3 p{
+	width:380px;
+	text-indent: 2em;
+	color:#505252;
+	margin:0;
+	text-align:right;
+	padding-left:10px;
+}
+.three{
+	font-style: 10px;
+	width:471px; 
+	height:136;
+	color:black;
+	position:absolute;
+}
+.list3{
+	list-style-image:  url(images/demo.point.gif);
+	float:right;
+}
+.study{
+	width: 40%;
+	float:left;
+	padding-left:15px;
+	padding-right: 15px;
+}
+.edu{
+	width: 43%;
+	float:left;
+	padding-right:15px;
+	padding-left:15px;
+}
+.a5 h4{
+	margin-bottom: 25px;
+}
+.a6{
+	border:2px outset;
+	width:9%;
+	height:290px;
+    float:left;
+    margin-top: 30px;
+    margin-left:15px;
+}
+.foot{
+	width:1300px;
+	margin:0 auto;
+	padding:10px;
+	margin-top: 10px;
+	background-color:#0384a8; 
+}
+.foot p{
+	text-align: center;
+	font-weight: bold;
+	color:white;
+}
